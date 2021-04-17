@@ -53,3 +53,18 @@
   padding: 10px 0;
   margin-left: -1px;
 }
+
+@media (max-width: 480px) {
+  .profile__img {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .profile__info {
+    grid-column: 1 / -1;
+  }
+
+  .profile__name {
+    text-align: center;
+  }
+}

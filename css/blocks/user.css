@@ -34,3 +34,19 @@
 .user__btn button:hover {
   outline: none;
 }
+
+@media (max-width: 680px) {
+  .user {
+    grid-template-columns: auto;
+  }
+
+  .user__info {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .user__btn {
+    justify-self: center;
+    margin-bottom: 25px;
+  }
+}
